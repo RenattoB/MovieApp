@@ -23,7 +23,7 @@ public class MoviesRepositoryTest {
 
     @Test
     public void testAddMovie(){
-        Movie movie = Movie.builder().name("Tets Movie").category(categoryRepository.findById(1).get()).director("Test Director").year("1997").build();
+        Movie movie = Movie.builder().name("Tets Movie 2").category(categoryRepository.findById(1).get()).director("Test Director").year("1997").build();
         movieRepository.save(movie);
     }
 

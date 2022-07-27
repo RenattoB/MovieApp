@@ -20,7 +20,7 @@ public class CategoryRepositoryTest {
 
     @Test
     public void testCreateCategory(){
-        Category objCategory = repository.save(Category.builder().name("Action").build());
+        Category objCategory = repository.save(Category.builder().name("TestCategory").build());
         assert objCategory.getId_category() > 0;
     }
 }
